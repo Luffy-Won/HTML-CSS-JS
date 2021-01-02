@@ -129,8 +129,7 @@ switch(color) {
 */
 
 // ------------OOP -------------------
-
-/* const circle = {
+/*const circle = {
   radius: 1,
   location: {
     x: 1,
@@ -141,7 +140,7 @@ switch(color) {
   }
 };
 
-circle.draw(); */
+circle.draw();
 
 
 // -----------Factory Function ----------------
@@ -166,3 +165,19 @@ function Circle(radius) {
 }
 
 const c1 = new Circle(1);
+*/
+
+let user = new Object();
+
+user.firstName = 'Prince';
+user.lastName = 'Shanks';
+user["age"] = 35;
+
+user.getFullName = function () {
+  return `First & Last ${user.firstName} ${user.lastName}`;
+}
+
+console.log(user);
+console.log(user.getFullName());
+console.log(user["age"]);
+console.log(user['firstName']);
