@@ -166,7 +166,7 @@ function Circle(radius) {
 
 const c1 = new Circle(1);
 */
-
+/*
 let user = new Object();
 
 user.firstName = 'Prince';
@@ -181,3 +181,26 @@ console.log(user);
 console.log(user.getFullName());
 console.log(user["age"]);
 console.log(user['firstName']);
+*/
+/*
+function EVEN_ODD() {
+  console.log('Hello pal')
+  console.log('Welcom to the Game .. Where I can tell if the number you entered is EVEN or ODD')
+  console.log('If you want to exit the game press x')
+
+  while(true) {
+    let name = window.prompt("Enter Number: ");
+    if(name === 'x') {
+      console.log('Closing the Game');
+      break;
+    } else if(name % 2 == 0){
+      console.log('EVEN Number!');
+    }else{
+      console.log('ODD Number!');
+    }
+
+  }
+}
+EVEN_ODD();
+*/
+
